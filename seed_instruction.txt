@@ -1,0 +1,27 @@
+
+import { initializeApp } from 'firebase/app';
+import { getFirestore, doc, setDoc } from 'firebase/firestore';
+import { db } from './src/firebase/config.js'; // Adjust path if needed or inline config
+
+// Inline config if import fails due to module type
+const firebaseConfig = {
+  // Accessing env vars or hardcoded for this test script if needed, 
+  // but better to try reusing existing config file if module implies.
+  // Actually, let's just use the existing src/firebase/config.js
+};
+
+// ... Wait, imports might fail if package.json doesn't set "type": "module".
+// Let's assume standard CommonJS or use the existing config.
+
+// Simplified Seed Script
+/*
+  Goal: Write to 'configuracion/valores'
+  Data: 
+  {
+      "cuota_mensual": { label: "Cuota Social", monto: 2500, categoria_target: "Socio Activo" },
+      "taller_arte": { label: "Taller de Arte", monto: 5000, categoria_target: "Tallerista" },
+      "futbol_infantil": { label: "Fútbol Infantil", monto: 4500, categoria_target: "Deportista" }
+  }
+*/
+
+console.log("Please run this logic within the browser console or a proper node env with firebase-admin.");

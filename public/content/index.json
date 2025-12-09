@@ -1,0 +1,280 @@
+[
+  {
+    "id": "evento-test",
+    "collection": "eventos",
+    "subtype": "post",
+    "title": "Evento Primaria Prueba",
+    "date": "2025-12-25",
+    "time": "10:00hs",
+    "description": "Evento de prueba para nivel primario.",
+    "category": "primario",
+    "gallery": [],
+    "url": "/content/eventos/primario/evento-test.md"
+  },
+  {
+    "id": "1ro-lista-materiales.pdf",
+    "collection": "cursos",
+    "subtype": "file",
+    "title": "1ro-lista-materiales",
+    "filename": "1ro-lista-materiales.pdf",
+    "url": "/content/cursos/primario/1-grado/1ro-lista-materiales.pdf",
+    "level": "primario",
+    "course": "1-grado"
+  },
+  {
+    "id": "test-news",
+    "collection": "novedades",
+    "subtype": "post",
+    "title": "Noticia de Prueba",
+    "date": "2025-12-06",
+    "excerpt": "Esta es una noticia de prueba cargada dinámicamente.",
+    "image": "/content/novedades/test-news/./test-image.jpg",
+    "showInHome": true,
+    "featured": false,
+    "gallery": [],
+    "url": "/content/novedades/test-news/index.md"
+  },
+  {
+    "id": "suspension-primaria",
+    "collection": "avisos",
+    "subtype": "post",
+    "title": "Suspensión de actividades Jueves 12",
+    "date": "2025-11-10",
+    "expirationDate": "2025-11-13",
+    "type": "warning",
+    "target": [
+      "primario",
+      "escuela"
+    ],
+    "gallery": [],
+    "url": "/content/avisos/suspension-primaria.md"
+  },
+  {
+    "id": "cien-anios",
+    "collection": "biblioteca",
+    "subtype": "post",
+    "title": "Cien Años de Soledad",
+    "author": "Gabriel García Márquez",
+    "image": "",
+    "category": "Novela",
+    "date": "2025-11-10",
+    "gallery": [],
+    "url": "/content/biblioteca/ingresos/cien-anios.md"
+  },
+  {
+    "id": "inscripciones-2026",
+    "collection": "avisos",
+    "subtype": "post",
+    "title": "Inscripciones Abiertas 2026",
+    "date": "2025-10-01",
+    "expirationDate": "2026-03-01",
+    "type": "info",
+    "target": [
+      "home",
+      "general"
+    ],
+    "gallery": [],
+    "url": "/content/avisos/inscripciones-2026.md"
+  },
+  {
+    "id": "mock-concierto",
+    "collection": "eventos",
+    "subtype": "post",
+    "title": "Concierto del Coro Juvenil",
+    "date": "2025-08-12",
+    "time": "20:00 hs",
+    "category": "Institucional",
+    "description": "Presentación de mitad de año en el salón de actos.",
+    "image": "/images/eventos/concierto.jpg",
+    "link": "/escuela/musica",
+    "gallery": [],
+    "url": "/content/eventos/mock-concierto.md"
+  },
+  {
+    "id": "mock-reunion-jardin",
+    "collection": "eventos",
+    "subtype": "post",
+    "title": "Reunión de Padres - Nivel Inicial",
+    "date": "2025-07-01",
+    "time": "17:30 hs",
+    "category": "Jardín",
+    "description": "Reunión informativa sobre la salida educativa a la Granja.",
+    "gallery": [],
+    "url": "/content/eventos/mock-reunion-jardin.md"
+  },
+  {
+    "id": "mock-kermesse",
+    "collection": "novedades",
+    "subtype": "post",
+    "title": "Feria del Plato y Kermesse",
+    "date": "2025-06-15",
+    "category": "Institucional",
+    "image": "/images/novedades/kermesse.jpg",
+    "excerpt": "Este sábado los esperamos para compartir una tarde en familia con juegos y comidas ricas.",
+    "showInHome": true,
+    "featured": true,
+    "gallery": [],
+    "url": "/content/novedades/mock-kermesse.md"
+  },
+  {
+    "id": "mock-ajedrez",
+    "collection": "novedades",
+    "subtype": "post",
+    "title": "Nuevo Taller de Ajedrez",
+    "date": "2025-05-20",
+    "category": "Talleres",
+    "excerpt": "Clases abiertas para principiantes y avanzados. Todos los martes a las 18hs.",
+    "showInHome": false,
+    "featured": true,
+    "gallery": [],
+    "url": "/content/novedades/mock-ajedrez.md"
+  },
+  {
+    "id": "mock-materiales-1-seccion",
+    "collection": "avisos",
+    "subtype": "post",
+    "title": "Materiales Pendientes - Primera Sección",
+    "date": "2025-03-01",
+    "expirationDate": "2025-03-15",
+    "level": "info",
+    "category": "inicial",
+    "tags": [
+      "1-seccion"
+    ],
+    "target": [
+      "inicial",
+      "1-seccion"
+    ],
+    "gallery": [],
+    "url": "/content/avisos/mock-materiales-1-seccion.md"
+  },
+  {
+    "id": "mock-reunion-1-seccion",
+    "collection": "novedades",
+    "subtype": "post",
+    "title": "Reunión de Padres Primera Sección",
+    "date": "2025-02-20",
+    "image": "/images/eventos/reunion.jpg",
+    "excerpt": "Primera reunión informativa para padres de la Primera Sección del Jardín.",
+    "category": "inicial",
+    "tags": [
+      "1-seccion"
+    ],
+    "gallery": [],
+    "url": "/content/novedades/mock-reunion-1-seccion.md"
+  },
+  {
+    "id": "cafe-literario",
+    "collection": "eventos",
+    "subtype": "post",
+    "title": "Café Literario: 'Voces Platenses'",
+    "date": "2024-12-20T18:00:00.000Z",
+    "time": "18:00 hs",
+    "location": "Sala de Lectura de la Biblioteca",
+    "category": "Biblioteca",
+    "image": "/images/cafe-literario.jpg",
+    "gallery": [],
+    "url": "/content/eventos/cafe-literario.md"
+  },
+  {
+    "id": "nuevos-libros-fantasy",
+    "collection": "novedades",
+    "subtype": "post",
+    "title": "Llegaron los nuevos libros de Fantasy",
+    "date": "2024-12-05T10:00:00.000Z",
+    "category": "Biblioteca",
+    "image": "/images/library-fantasy.jpg",
+    "excerpt": "Ya están disponibles las últimas novedades del género fantástico en nuestra biblioteca.",
+    "hiddenFromHome": false,
+    "gallery": [],
+    "url": "/content/novedades/nuevos-libros-fantasy.md"
+  },
+  {
+    "id": "devolucion-libros",
+    "collection": "avisos",
+    "subtype": "post",
+    "title": "Devolución de Material Bibliográfico",
+    "date": "2024-12-01T10:00:00.000Z",
+    "expirationDate": "2025-03-01T10:00:00.000Z",
+    "type": "aviso",
+    "tags": [
+      "biblioteca"
+    ],
+    "gallery": [],
+    "url": "/content/avisos/devolucion-libros.md"
+  },
+  {
+    "id": "feriado-nacional",
+    "collection": "avisos",
+    "subtype": "post",
+    "title": "Suspensión de Actividades por Feriado",
+    "date": "2024-11-25T10:00:00.000Z",
+    "expirationDate": "2025-01-20T10:00:00.000Z",
+    "type": "alert",
+    "gallery": [],
+    "url": "/content/avisos/feriado-nacional.md"
+  },
+  {
+    "id": "nuevos-horarios",
+    "collection": "avisos",
+    "subtype": "post",
+    "title": "Nuevos Horarios de Atención",
+    "date": "2024-11-20T10:00:00.000Z",
+    "expirationDate": "2025-06-30T10:00:00.000Z",
+    "type": "aviso",
+    "gallery": [],
+    "url": "/content/avisos/nuevos-horarios.md"
+  },
+  {
+    "id": "aviso-vencido",
+    "collection": "avisos",
+    "subtype": "post",
+    "title": "Evento Pasado",
+    "date": "2024-01-01",
+    "expirationDate": "2024-02-01",
+    "type": "alert",
+    "target": [
+      "home"
+    ],
+    "gallery": [],
+    "url": "/content/avisos/aviso-vencido.md"
+  },
+  {
+    "id": "mock-busqueda-laboral",
+    "collection": "avisos",
+    "subtype": "post",
+    "type": "info",
+    "title": "Búsqueda de Bibliotecario/a",
+    "target": [
+      "general",
+      "biblioteca"
+    ],
+    "expirationDate": "2025-09-01",
+    "gallery": [],
+    "url": "/content/avisos/mock-busqueda-laboral.md"
+  },
+  {
+    "id": "mock-desinfeccion",
+    "collection": "avisos",
+    "subtype": "post",
+    "type": "alert",
+    "title": "Cierre por Desinfección",
+    "target": [
+      "global"
+    ],
+    "expirationDate": "2025-04-10",
+    "gallery": [],
+    "url": "/content/avisos/mock-desinfeccion.md"
+  },
+  {
+    "id": "libro-nuevo",
+    "collection": "biblioteca",
+    "subtype": "post",
+    "title": "Libro Nuevo",
+    "author": "Autor Desconocido",
+    "edition": "1ra Edición",
+    "image": "/content/biblioteca/ingresos/libro-nuevo/./book-cover.jpg",
+    "gallery": [],
+    "url": "/content/biblioteca/ingresos/libro-nuevo/index.md"
+  }
+]
